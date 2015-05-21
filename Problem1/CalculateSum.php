@@ -16,7 +16,6 @@ class CalculateSum
      *
      * @param array $input
      * @return int|float
-     * @throws \Exception
      */
     public function sumForLoop(array $input)
     {
@@ -36,7 +35,6 @@ class CalculateSum
      *
      * @param mixed $input
      * @return int|float
-     * @throws \Excep
      */
     public function sumWhileLoop($input)
     {
@@ -55,7 +53,6 @@ class CalculateSum
      *
      * @param mixed $input
      * @return int|float
-     * @throws \Exception
      */
     public function sumRecursive($input)
     {

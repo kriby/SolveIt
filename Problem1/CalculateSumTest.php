@@ -1,7 +1,6 @@
 <?php
 
 namespace SolveIt\Problem1;
-use Exception;
 
 /**
  * Problem 1:
