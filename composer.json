@@ -1,0 +1,20 @@
+{
+  "name": "vendor_name/package_name",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Roman Liukshyn",
+      "email": "roma.liukshyn@gmail.com"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "4.8.x-dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "SolveIt\\": ["/var/www/html/SolveIt"]
+    }
+  }
+}
