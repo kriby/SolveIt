@@ -10,13 +10,13 @@ namespace SolveIt\Problem2;
  * given the two lists [a, b, c] and [1, 2, 3],
  * the function should return [a, 1, b, 2, c, 3].
  */
-Class listsCombineTest extends \PHPUnit_Framework_TestCase
+Class ListsCombineTest extends \PHPUnit_Framework_TestCase
 {
     private $model;
 
     protected function setUp()
     {
-        $this->model = new listsCombine();
+        $this->model = new ListsCombine();
     }
 
     /**
@@ -28,7 +28,7 @@ Class listsCombineTest extends \PHPUnit_Framework_TestCase
      */
     public function testListsCombine($listA, $listB, $result)
     {
-        \PHPUnit_Framework_TestCase::assertEquals($this->model->listsCombine($listA, $listB), $result);
+        \PHPUnit_Framework_TestCase::assertEquals($result, $this->model->listsCombine($listA, $listB));
     }
 
     public function provider()

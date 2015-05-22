@@ -27,9 +27,9 @@ Class CalculateSumTest extends \PHPUnit_Framework_TestCase
      */
     public function testSumForLoop($input, $result)
     {
-        \PHPUnit_Framework_TestCase::assertEquals($this->model->sumForLoop($input), $result);
-        \PHPUnit_Framework_TestCase::assertEquals($this->model->sumWhileLoop($input), $result);
-        \PHPUnit_Framework_TestCase::assertEquals($this->model->sumRecursive($input), $result);
+        \PHPUnit_Framework_TestCase::assertEquals($result, $this->model->sumForLoop($input));
+        \PHPUnit_Framework_TestCase::assertEquals($result, $this->model->sumWhileLoop($input));
+        \PHPUnit_Framework_TestCase::assertEquals($result, $this->model->sumRecursive($input));
     }
 
     public function provider()
